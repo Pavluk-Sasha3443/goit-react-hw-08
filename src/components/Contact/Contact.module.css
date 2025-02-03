@@ -1,0 +1,15 @@
+.title {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: rgb(0, 0, 0);
+}
+.phone {
+  font-size: 14px;
+}
+.btnDelete {
+  height: 34px;
+}
+.icon {
+  color: black;
+  margin-right: 5px;
+}

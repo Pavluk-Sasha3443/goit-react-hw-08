@@ -1,0 +1,32 @@
+.container {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.title {
+  margin: 40px 100px;
+  padding-top: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+
+  font-size: 3rem;
+  color: #333;
+  animation: slideColor 7s ease-in-out infinite;
+}
+
+@keyframes slideColor {
+  0% {
+    transform: translateY(-50%);
+    color: blue;
+  }
+  50% {
+    transform: translateY(50%);
+    color: #0033ff;
+  }
+  100% {
+    transform: translateY(100%);
+    color: yellow;
+  }
+}

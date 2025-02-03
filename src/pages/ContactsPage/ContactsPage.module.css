@@ -1,0 +1,10 @@
+.contactWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
