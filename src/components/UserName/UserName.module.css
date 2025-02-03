@@ -1,7 +1,5 @@
 .logout {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  text-align: center;
   height: 100%;
   padding-right: 20px;
 }
@@ -9,18 +7,11 @@
 .name {
   margin-right: 15px;
   font-size: 16px;
-  color: white;
+  color: rgb(0, 0, 0);
+  padding-bottom: 8px;
 }
 
 button {
   padding: 5px 15px;
-  background-color: #333;
-
-  border-radius: 4px;
-  cursor: pointer;
   font-size: 14px;
-}
-
-button:hover {
-  background-color: rgb(30, 28, 28);
 }

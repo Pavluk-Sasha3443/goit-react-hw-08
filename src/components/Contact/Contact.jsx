@@ -2,7 +2,8 @@ import { useDispatch } from "react-redux";
 import { deleteContact } from "../../redux/contacts/operations";
 
 import css from "./Contact.module.css";
-import { FaUser, FaPhone } from "react-icons/fa6";
+import { RiUser5Fill } from "react-icons/ri";
+import { ImPhone } from "react-icons/im";
 import toast from "react-hot-toast";
 
 const Contact = ({ contactData: { contact, id } }) => {
@@ -20,10 +21,10 @@ const Contact = ({ contactData: { contact, id } }) => {
     <>
       <div>
         <h2 className={css.title}>
-          <FaUser className={css.icon} size="14" /> {contact.name}
+          <RiUser5Fill className={css.icon} size="14" /> {contact.name}
         </h2>
         <p className={css.phone}>
-          <FaPhone className={css.icon} size="14" />
+          <ImPhone className={css.icon} size="14" />
           {contact.number}
         </p>
       </div>

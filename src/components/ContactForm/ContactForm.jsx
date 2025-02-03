@@ -12,9 +12,7 @@ const FeedbackSchema = Yup.object().shape({
     .min(3, "Too Short!")
     .max(20, "Too Long!")
     .required("Required"),
-  number: Yup.string()
-    .matches(/^\d{3}-\d{2}-\d{2}$/, "Must be XXX-XX-XX")
-    .required("Required"),
+  number: Yup.string().matches().required("Required"),
 });
 
 const initialValues = {
